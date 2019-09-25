@@ -1,5 +1,4 @@
 {
-  var helper = new Helper();
   $('button#play-pause').on('click', function() {
     helper.playPauseAndUpdate();
     $(this).attr('playState', player.playState);
